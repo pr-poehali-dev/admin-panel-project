@@ -191,7 +191,6 @@ export default function Index() {
                         </p>
                         <div className="flex items-center gap-4 text-sm text-gray-500">
                           <span>/{article.slug}</span>
-                          <span>{new Date(article.created_at).toLocaleDateString('ru-RU')}</span>
                           <div className="flex gap-1">
                             {article.tags.map((tag, index) => (
                               <Badge key={index} variant="secondary" className="text-xs">
