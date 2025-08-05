@@ -145,7 +145,7 @@ export default function Index() {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">Админка для блога</h1>
+          <h1 className="text-3xl font-bold text-gray-900 mb-2">Админка Поехали!</h1>
           <p className="text-gray-600">Управление статьями блога</p>
         </div>
 
